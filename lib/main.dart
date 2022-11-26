@@ -47,7 +47,27 @@ class _MyAppState extends State<MyApp> {
                   ),
                   Text('WELCOME',
                       style: GoogleFonts.montserrat(
-                          fontWeight: FontWeight.bold, fontSize: 40)),
+                          color: Colors.teal.shade300,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 40)),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    'SILAHKAN LOGIN',
+                    style: TextStyle(
+                        fontFamily: 'sanspro',
+                        color: Colors.teal.shade100,
+                        fontSize: 20.0,
+                        letterSpacing: 2.5,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  SizedBox(
+                      height: 20.0,
+                      width: 150.0,
+                      child: Divider(
+                        color: Colors.teal.shade100,
+                      )),
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 100),
                     child: Form(
